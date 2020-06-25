@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global */
+body {
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Super-Info */
+.super-info-bg {
+    background-color: #122ab2;
+    color: #fff;
+}
+
+.super-info {
+    width: 90%;
+    max-width: 1200px;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.super-info a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
