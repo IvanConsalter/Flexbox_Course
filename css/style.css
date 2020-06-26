@@ -415,3 +415,27 @@ footer p {
     margin: 0.4rem 0;
 }
 
+@media (max-width: 1025px) {
+
+    .super-info,
+    .menu,
+    .sobre,
+    .produtos,
+    .preco-container,
+    .qualidade,
+    .newsletter {
+        width: 96%;
+    }
+}
+
+@media (max-width: 580px) {
+
+    .preco-container .preco-item:nth-child(3) {
+        order: -2;
+    }
+
+    .preco-container .preco-item:nth-child(1) {
+        order: 2;
+    }
+}
+
