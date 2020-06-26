@@ -169,3 +169,127 @@ img {
 .produtos-container .blue {
     border-top: 0.5rem solid #66d9eb;
 }
+
+/* Precos */
+.preco {
+    background-color: #f7f7f7;
+    padding: 3rem 0;
+}
+
+.preco-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.preco-item {
+    flex: 1 1 260px;
+    padding: 1.2rem;
+    margin: 0.6rem;
+}
+
+.preco-item-cobre {
+    border: 0.25rem solid #b87333;
+}
+
+.preco-item-prata {
+    border: 0.25rem solid #c0c0c0;
+}
+
+.preco-item-ouro {
+    border: 0.25rem solid #daa520;
+}
+
+.preco-item h2 {
+    font-size: 3rem;
+    color: #a4a4a4;
+    text-align: center;
+    margin-top: 1.2rem;
+}
+
+.preco-item span {
+    max-width: 300px;
+    margin: 1.2rem auto;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.6rem 0 0.3rem 0;
+    font-size: 3rem;
+}
+
+.preco-item .span-cobre {
+    border-top: 0.3rem solid #b87333;
+    border-bottom: 0.3rem solid #b87333;
+}
+
+.preco-item .span-prata {
+    border-top: 0.3rem solid #c0c0c0;
+    border-bottom: 0.3rem solid #c0c0c0;
+}
+
+.preco-item .span-ouro {
+    border-top: 0.3rem solid #daa520;
+    border-bottom: 0.3rem solid #daa520;
+}
+
+.preco-item sup {
+    font-size: 1.5rem;
+}
+
+.preco-item ul {
+    list-style: none;
+    margin: 1.2rem auto;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #a4a4a4;
+}
+
+.preco-item li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.preco-item li::after {
+    content: '';
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+}
+
+.preco-item-cobre li::after {
+    background-color: #b87333;
+}
+
+.preco-item-prata li::after{
+    background-color: #c0c0c0;
+}
+
+.preco-item-ouro li::after{
+    background-color: #daa520;
+}
+
+/* Button */
+.btn {
+    max-width: 300px;
+    display: block;
+    margin: 1.2rem auto;
+    border: 0.2rem solid;
+    color: #222222;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.3rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+
+
+
